@@ -12,4 +12,7 @@ print('Введите число, я программа проверит, вля
 day_num = int(input())
 if 0 < day_num <= 5:
     print('Это будни')
-elif day_num <   
+elif 6<=day_num<=7:
+    print('Это выходной')
+else:
+    print('Что-то ты не то ввел, попробуй ещё')
